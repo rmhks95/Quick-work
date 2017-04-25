@@ -35,7 +35,7 @@
             // 
             // Start_but
             // 
-            this.Start_but.Location = new System.Drawing.Point(53, 63);
+            this.Start_but.Location = new System.Drawing.Point(54, 52);
             this.Start_but.Name = "Start_but";
             this.Start_but.Size = new System.Drawing.Size(75, 23);
             this.Start_but.TabIndex = 0;
@@ -45,7 +45,7 @@
             // 
             // PathBox
             // 
-            this.PathBox.Location = new System.Drawing.Point(53, 26);
+            this.PathBox.Location = new System.Drawing.Point(45, 26);
             this.PathBox.Name = "PathBox";
             this.PathBox.Size = new System.Drawing.Size(129, 20);
             this.PathBox.TabIndex = 1;
@@ -63,7 +63,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(193, 98);
+            this.ClientSize = new System.Drawing.Size(188, 86);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.PathBox);
             this.Controls.Add(this.Start_but);

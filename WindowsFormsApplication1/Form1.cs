@@ -49,6 +49,14 @@ namespace WindowsFormsApplication1
                 sw.Close();
             }
 
+            PathBox.Text = "";
+
+            var form = new Form2();
+
+            form.Show(this);
+            System.Threading.Thread.Sleep(1000);
+            form.Hide();
+
         }
     }
 }
